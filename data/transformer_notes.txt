@@ -1,0 +1,6 @@
+Transformer 是一种基于注意力机制的神经网络架构。
+Self-Attention 用于计算序列内部不同 Token 之间的关系，使模型能够根据上下文理解每个 Token 的含义。
+Multi-Head Attention 将注意力机制分成多个头，使模型能够从不同角度学习 Token 之间的关系。
+Causal Mask 用于限制当前位置只能关注当前位置及之前的 Token，防止模型在生成过程中提前看到未来的信息。
+Feed Forward Network 是 Transformer 中的重要组成部分，它对每个位置的特征进行非线性变换，增强模型的表达能力。
+Positional Embedding 用于向模型提供 Token 的位置信息，因为 Self-Attention 本身并不直接包含序列顺序信息。
